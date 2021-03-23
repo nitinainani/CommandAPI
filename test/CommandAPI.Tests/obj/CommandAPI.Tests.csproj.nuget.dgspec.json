@@ -1,0 +1,143 @@
+{
+  "format": 1,
+  "restore": {
+    "P:\\CommandAPISolution\\test\\CommandAPI.Tests\\CommandAPI.Tests.csproj": {}
+  },
+  "projects": {
+    "P:\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "P:\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
+        "projectName": "CommandAPI",
+        "projectPath": "P:\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
+        "packagesPath": "C:\\Users\\nainani\\.nuget\\packages\\",
+        "outputPath": "P:\\CommandAPISolution\\src\\CommandAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nainani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "Y:\\Data-Indy\\Apps\\GlobalLibrary\\NugetLibrary": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "P:\\CommandAPISolution\\test\\CommandAPI.Tests\\CommandAPI.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "P:\\CommandAPISolution\\test\\CommandAPI.Tests\\CommandAPI.Tests.csproj",
+        "projectName": "CommandAPI.Tests",
+        "projectPath": "P:\\CommandAPISolution\\test\\CommandAPI.Tests\\CommandAPI.Tests.csproj",
+        "packagesPath": "C:\\Users\\nainani\\.nuget\\packages\\",
+        "outputPath": "P:\\CommandAPISolution\\test\\CommandAPI.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nainani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "Y:\\Data-Indy\\Apps\\GlobalLibrary\\NugetLibrary": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "P:\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj": {
+                "projectPath": "P:\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
